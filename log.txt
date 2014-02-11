@@ -1,0 +1,36 @@
+2014-02-11T16:51:34.704540+00:00 heroku[api]: Enable Logplex by riogangsta@gmail.com
+2014-02-11T16:51:34.747445+00:00 heroku[api]: Release v2 created by riogangsta@gmail.com
+2014-02-11T16:51:47+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-11T16:51:47+00:00 heroku[slug-compiler]: Slug compilation failed: no Cedar-supported app detected
+2014-02-11T16:53:06+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-11T16:53:33.390045+00:00 heroku[api]: Deploy 723746d by riogangsta@gmail.com
+2014-02-11T16:53:33.430087+00:00 heroku[api]: Release v3 created by riogangsta@gmail.com
+2014-02-11T16:53:34+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-02-11T16:53:41.886248+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/ host=afternoon-tundra-1452.herokuapp.com request_id=c1f6eaeb-5124-4681-b1e8-01470c382688 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T16:53:42.523389+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/favicon.ico host=afternoon-tundra-1452.herokuapp.com request_id=81d6a6c0-058c-4f64-98b9-92b0e00b0d2c fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:00:09+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-11T17:10:23+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-11T17:10:58+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Python app
+2014-02-11T17:12:44+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-11T17:13:44+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-02-11T17:13:43.822119+00:00 heroku[api]: Deploy cef8cc3 by riogangsta@gmail.com
+2014-02-11T17:13:43.835157+00:00 heroku[api]: Release v4 created by riogangsta@gmail.com
+2014-02-11T17:13:56.694884+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/favicon.ico host=afternoon-tundra-1452.herokuapp.com request_id=d6ddfaa0-2a31-48d2-9a94-c1c3dadd62a3 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:16:11.749009+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/ host=afternoon-tundra-1452.herokuapp.com request_id=94c9bc5e-9ea9-4dc8-b88c-4838e3b85139 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:16:12.230556+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/favicon.ico host=afternoon-tundra-1452.herokuapp.com request_id=8b99e538-fe35-4706-b025-f15b5cba6659 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:13:56.425056+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/ host=afternoon-tundra-1452.herokuapp.com request_id=ce470e8e-01ba-4acd-b65f-992fa952e05a fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:20:12.279170+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/ host=afternoon-tundra-1452.herokuapp.com request_id=671d42f6-8939-4cc0-ae9a-854d06bb3f06 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:20:12.509168+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/favicon.ico host=afternoon-tundra-1452.herokuapp.com request_id=1f41f5b8-a8a2-4ced-9470-2099b1102307 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:27:26.299355+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/ host=afternoon-tundra-1452.herokuapp.com request_id=d8d18c01-2895-4169-968a-05ddf4747855 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:27:26.627178+00:00 heroku[router]: at=error code=H14 desc="No web processes running" method=GET path=/favicon.ico host=afternoon-tundra-1452.herokuapp.com request_id=c16763ef-6054-4d48-bdad-258e2a4e73de fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:29:29.151490+00:00 heroku[api]: Scale to web=1 by riogangsta@gmail.com
+2014-02-11T17:29:34.198036+00:00 heroku[web.1]: Starting process with command `gunicorn hello:app`
+2014-02-11T17:29:34.999239+00:00 app[web.1]: bash: gunicorn: command not found
+2014-02-11T17:29:36.705658+00:00 heroku[web.1]: Process exited with status 127
+2014-02-11T17:29:36.740048+00:00 heroku[web.1]: State changed from crashed to starting
+2014-02-11T17:29:36.739253+00:00 heroku[web.1]: State changed from starting to crashed
+2014-02-11T17:29:40.684609+00:00 heroku[web.1]: Starting process with command `gunicorn hello:app`
+2014-02-11T17:29:41.473516+00:00 app[web.1]: bash: gunicorn: command not found
+2014-02-11T17:29:42.659299+00:00 heroku[web.1]: State changed from starting to crashed
+2014-02-11T17:29:42.649519+00:00 heroku[web.1]: Process exited with status 127
+2014-02-11T17:29:43.675398+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=afternoon-tundra-1452.herokuapp.com request_id=95ff3c62-5220-4eeb-995d-718d91cc47b4 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
