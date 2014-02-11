@@ -34,3 +34,10 @@
 2014-02-11T17:29:42.659299+00:00 heroku[web.1]: State changed from starting to crashed
 2014-02-11T17:29:42.649519+00:00 heroku[web.1]: Process exited with status 127
 2014-02-11T17:29:43.675398+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=afternoon-tundra-1452.herokuapp.com request_id=95ff3c62-5220-4eeb-995d-718d91cc47b4 fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:32:41+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-11T17:33:05+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-02-11T17:33:10.661907+00:00 heroku[web.1]: Starting process with command `gunicorn hello:app`
+2014-02-11T17:33:11.783951+00:00 app[web.1]: bash: gunicorn: command not found
+2014-02-11T17:33:13.755001+00:00 heroku[web.1]: Process exited with status 127
+2014-02-11T17:33:04.902548+00:00 heroku[api]: Deploy 9de4035 by riogangsta@gmail.com
+2014-02-11T17:33:04.916510+00:00 heroku[api]: Release v5 created by riogangsta@gmail.com
