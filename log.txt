@@ -41,3 +41,9 @@
 2014-02-11T17:33:13.755001+00:00 heroku[web.1]: Process exited with status 127
 2014-02-11T17:33:04.902548+00:00 heroku[api]: Deploy 9de4035 by riogangsta@gmail.com
 2014-02-11T17:33:04.916510+00:00 heroku[api]: Release v5 created by riogangsta@gmail.com
+2014-02-11T17:33:15.216289+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path=/ host=afternoon-tundra-1452.herokuapp.com request_id=1ebfcfd9-f899-4d15-91d8-d37ef82555aa fwd="108.13.175.67" dyno= connect= service= status=503 bytes=
+2014-02-11T17:35:00+00:00 heroku[slug-compiler]: Slug compilation started
+2014-02-11T17:35:14.851000+00:00 heroku[api]: Deploy a155b43 by riogangsta@gmail.com
+2014-02-11T17:35:14.889609+00:00 heroku[api]: Release v6 created by riogangsta@gmail.com
+2014-02-11T17:35:15+00:00 heroku[slug-compiler]: Slug compilation finished
+2014-02-11T17:35:15.153133+00:00 heroku[web.1]: State changed from crashed to down
